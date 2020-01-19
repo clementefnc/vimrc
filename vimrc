@@ -19,6 +19,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'valloric/youcompleteme'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'wadackel/vim-dogrun'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " Brief help
@@ -38,3 +39,9 @@ set tabstop=4 shiftwidth=4 "expandtab
 
 " Set YCM global compilation flags file
 let g:ycm_global_ycm_extra_conf = '~/.vim/'
+
+" Set cursor line highlight
+set cursorline
+
+" Add theme
+colorscheme dogrun
